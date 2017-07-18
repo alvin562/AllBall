@@ -1,5 +1,3 @@
-//TODO
-//  -- CREATE MORE FUNCTIONS
 
 $(document).ready(function(){
 

@@ -1,0 +1,11 @@
+
+issues:
+  messages go off screen
+  messages don't make sound on mobile
+  button sizing issues
+  messages don't disappear when page is not active (e.g. on a different tab)
+  animation.js needs more functions
+
+
+suggestions:
+  font size should change based on message length
