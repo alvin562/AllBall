@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <meta name="description" content="A real-time chat application where you can bicker about anything and everything basketball">
+    <title>All Ball - Let's Talk Basketball</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700%7CFredoka+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+  </head>
+  <body>
+
+
+    <div class="home-page">
+      <div id="home-content">
+        <h1>AllBall</h1>
+        <div id="home-option">
+          <select id="teams">
+            <option selected>Choose your team</option>
+            <option>Warriors</option>
+            <option>Bucks</option>
+            <option>Bulls</option>
+            <option>Celtics</option>
+            <option>Grizzlies</option>
+            <option>Hawks</option>
+            <option>Hornets</option>
+            <option>Knicks</option>
+            <option>Nuggets</option>
+            <option>Timberwolves</option>
+          </select>
+        </div>
+        <div id="arrow" class="bouncy"></div>
+      </div>
+    </div>
+
+    <div id="chat-page">
+      <div id="chat-header">
+          <h2 class="header-element" id="masthead">AllBall</h2>
+          <div id="topic-container" class="header-element">
+            <h3 class="header-element">Discuss: &nbsp;</h3>
+            <h4 class="header-element" id="topic">NBA Finals</h4>
+          </div>
+      </div>
+
+      <ul id="messages"></ul>
+
+      <form id="footer">
+
+        <div id="bottom-left-content">
+          <button><i class="fa fa-paper-plane fa-4x"></i></button>
+          <input type='text' id='message-bar' maxLength="100" value="" autocomplete="off"/>
+        </div>
+
+<!--         <div id="bottom-right-content">
+          <p id="people-count">People in chatroom</p>
+        </div> -->
+      </form>
+
+    </div>
+
+    <script src="/js/jquery-3.1.1.min.js" defer></script>
+    <script src="/js/animation.js" defer></script>
+    <script src="/js/socket.io.js" defer></script>
+    <script src="/js/client.js" defer></script>
+
+  </body>
+</html>

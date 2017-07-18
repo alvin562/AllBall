@@ -1,0 +1,26 @@
+{
+  "name": "allball",
+  "version": "0.0.1",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "6.10.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "compression": "^1.6.2",
+    "ejs": "2.5.6",
+    "express": "4.15.2",
+    "node": "0.0.0",
+    "realtime": "0.0.1",
+    "request": "^2.81.0",
+    "socket.io": "^2.0.1"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
+}
