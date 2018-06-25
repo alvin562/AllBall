@@ -5,7 +5,7 @@ issues:
   button sizing issues
   messages don't disappear when page is not active (e.g. on a different tab)
   animation.js needs more functions
-  icons arent showing on feature/test_feature branch
+  icons arent showing up
 
 suggestions:
   font size should change based on message length

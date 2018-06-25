@@ -4,10 +4,11 @@ var http = require('http').Server(app);
 var path = require('path');
 var io = require('socket.io')(http);
 var request = require('request');
-// var compression = require('compression');
+var compression = require('compression');
 
 
-// http.use(compression());
+// compress all responses
+app.use(compression())
 
 var port = process.env.PORT || 5000;
 
